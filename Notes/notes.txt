@@ -1,0 +1,18 @@
+*****Props Vs State*****
+
+Props -
+
+props get passed to the components
+Function parameters
+Props are immutable
+Props - Functional components
+this.props - Class components
+
+State -
+
+state is managed within the component
+Variable declared in the function body
+state can be changed
+useStste Hook - Functional component
+this.state - Class Components
+
