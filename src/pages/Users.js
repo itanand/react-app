@@ -1,0 +1,21 @@
+import React from 'react'
+import Sidebar from '../components/Sidebar';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+
+const Users = () => {
+  return (
+    <>
+    <Box sx={{display : "flex"}}>
+    <Sidebar />
+      <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+        <Typography >
+           Users
+        </Typography>
+      </Box>
+    </Box>
+    </>
+  )
+}
+
+export default Users
